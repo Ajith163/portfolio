@@ -1,0 +1,19 @@
+import React from "react";
+
+export default function ReactIcon(props) {
+  return (
+    <svg
+      className={props.className}
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="none"
+    >
+      <circle cx="12" cy="12" r="2" fill="#61DAFB" />
+      <g stroke="#61DAFB" strokeWidth="1.5" fill="none">
+        <ellipse rx="10" ry="4.5" cx="12" cy="12" />
+        <ellipse rx="10" ry="4.5" cx="12" cy="12" transform="rotate(60 12 12)" />
+        <ellipse rx="10" ry="4.5" cx="12" cy="12" transform="rotate(120 12 12)" />
+      </g>
+    </svg>
+  );
+} 
